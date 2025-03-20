@@ -11,7 +11,7 @@ export async function connect() {
 
     connection.on("error", (error) => {
       console.log(
-        "Monogodb connection error, please make sure db is up and running" +
+        "Monogodb connection error, please make sure db is up and running " +
           error
       );
       process.exit();
